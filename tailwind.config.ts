@@ -13,12 +13,28 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Instrument Sans', 'sans-serif'],
+        display: ['Lora', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        sunlight: "hsl(var(--sunlight))",
+        "shadow-warm": "hsl(var(--shadow-warm))",
+        "wood-deep": "hsl(var(--wood-deep))",
+        "wood-mid": "hsl(var(--wood-mid))",
+        "marka-purple": {
+          DEFAULT: "hsl(var(--marka-purple))",
+          deep: "hsl(var(--marka-purple-deep))",
+        },
+        "marka-green": {
+          DEFAULT: "hsl(var(--marka-green))",
+          bright: "hsl(var(--marka-green-bright))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
