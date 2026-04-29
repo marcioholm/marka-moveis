@@ -1,5 +1,4 @@
-import heroImg from "@/assets/hero-kitchen.jpg";
-import woodDetail from "@/assets/wood-detail.jpg";
+import heroImg from "@/assets/store-showroom.jpg";
 
 const Hero = () => {
   return (
@@ -12,29 +11,31 @@ const Hero = () => {
             <div className="flex items-center gap-3">
               <span className="block w-8 h-px bg-marka-green" />
               <span className="text-[11px] tracking-[0.2em] uppercase font-semibold text-marka-green">
-                Marcenaria sob medida · desde 2001
+                Loja de móveis · São Paulo
               </span>
             </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-[5.25rem] leading-[1.05] font-medium text-marka-purple tracking-tight text-balance">
-              O refúgio esculpido em <span className="italic text-foreground/80">cada detalhe.</span>
+              Móveis para a sua casa, <span className="italic text-foreground/80">prontos para levar.</span>
             </h1>
             <p className="text-lg text-foreground/70 max-w-[44ch] leading-relaxed text-pretty">
-              Móveis planejados que traduzem a sua essência em ambientes atemporais. Madeira selecionada, precisão milimétrica e o calor do feito à mão.
+              Sofás, mesas, camas, racks e decoração com curadoria, qualidade e preço justo. Visite a nossa loja e veja, sente e escolha pessoalmente.
             </p>
           </div>
 
           <div className="flex flex-wrap items-center gap-6 pt-2">
             <a
-              href="#contato"
+              href="#visite"
               className="bg-marka-purple text-sunlight px-8 py-4 text-sm font-semibold tracking-wide hover:bg-marka-purple-deep transition-all shadow-button rounded-sm"
             >
-              Iniciar Projeto
+              Como chegar
             </a>
             <a
-              href="#projetos"
+              href="https://wa.me/5511999999999"
+              target="_blank"
+              rel="noreferrer"
               className="flex items-center gap-3 text-sm font-semibold tracking-wide text-foreground/80 hover:text-marka-green transition-colors group"
             >
-              Explorar Acervos
+              Falar no WhatsApp
               <span className="text-marka-green group-hover:translate-x-1 transition-transform inline-block">→</span>
             </a>
           </div>
@@ -42,24 +43,24 @@ const Hero = () => {
           <div className="mt-8 lg:mt-12 grid grid-cols-3 gap-6 border-t border-border pt-8">
             <div className="flex flex-col gap-1">
               <span className="font-display text-3xl text-marka-purple">+24<span className="text-marka-green">.</span></span>
-              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Anos de tradição</span>
+              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Anos de loja</span>
             </div>
             <div className="flex flex-col gap-1">
-              <span className="font-display text-3xl text-marka-purple">+1.2k</span>
-              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Lares assinados</span>
+              <span className="font-display text-3xl text-marka-purple">+500</span>
+              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Produtos no showroom</span>
             </div>
             <div className="flex flex-col gap-1">
-              <span className="font-display text-3xl text-marka-purple">100%</span>
-              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Sob medida</span>
+              <span className="font-display text-3xl text-marka-purple">10x</span>
+              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Sem juros</span>
             </div>
           </div>
         </div>
 
-        <div className="lg:col-span-7 relative h-[60vh] lg:h-[78vh] min-h-[520px] w-full flex items-center justify-end">
-          <div className="w-[88%] h-[92%] relative bg-shadow-warm z-10 overflow-hidden shadow-editorial ring-1 ring-inset ring-foreground/5">
+        <div className="lg:col-span-7 relative h-[60vh] lg:h-[78vh] min-h-[520px] w-full">
+          <div className="w-full h-full relative bg-shadow-warm overflow-hidden shadow-editorial ring-1 ring-inset ring-foreground/5">
             <img
               src={heroImg}
-              alt="Cozinha planejada Marka com marcenaria em nogueira e bancada de mármore"
+              alt="Showroom da Marka Móveis com sofás, mesas e luminárias em exposição"
               className="w-full h-full object-cover"
               width={1280}
               height={1600}
@@ -67,26 +68,10 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-sunlight/20 via-transparent to-transparent mix-blend-overlay pointer-events-none" />
           </div>
 
-          <div className="absolute bottom-6 left-0 lg:-left-4 w-[42%] aspect-[4/5] bg-sunlight p-3 shadow-soft z-20 ring-1 ring-inset ring-marka-purple/10">
-            <div className="w-full h-full bg-shadow-warm relative overflow-hidden">
-              <img
-                src={woodDetail}
-                alt="Detalhe da textura natural da madeira nogueira"
-                loading="lazy"
-                className="w-full h-full object-cover"
-                width={800}
-                height={1000}
-              />
-            </div>
-          </div>
-
-          <div className="absolute top-[8%] -right-2 lg:-right-10 w-px h-32 bg-marka-purple/20" />
-          <div className="absolute top-[8%] right-0 w-8 h-px bg-marka-purple/20" />
-
           <div className="hidden md:flex absolute -right-4 bottom-[18%] rotate-90 origin-bottom-right items-center gap-3 opacity-60">
             <span className="w-8 h-px bg-foreground" />
             <span className="text-[10px] font-semibold tracking-[0.2em] uppercase text-foreground">
-              Coleção Raízes · 2025
+              Showroom aberto · Seg a Sáb
             </span>
           </div>
         </div>

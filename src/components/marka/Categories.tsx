@@ -1,53 +1,71 @@
+import sofa from "@/assets/cat-sofa.jpg";
+import dining from "@/assets/cat-dining.jpg";
+import bedroom from "@/assets/cat-bedroom.jpg";
+import office from "@/assets/cat-office.jpg";
+
 const categories = [
-  { num: "01", name: "Cozinhas", desc: "O coração do lar, onde funcionalidade encontra ritual." },
-  { num: "02", name: "Dormitórios", desc: "Refúgios silenciosos desenhados para o descanso absoluto." },
-  { num: "03", name: "Closets", desc: "Arquitetura íntima para a sua coleção pessoal." },
-  { num: "04", name: "Home Office", desc: "Ambientes que sustentam a sua melhor versão." },
-  { num: "05", name: "Salas & Estar", desc: "Painéis e racks integrados à arquitetura do espaço." },
-  { num: "06", name: "Banheiros", desc: "Marcenaria que resiste ao tempo e à umidade." },
+  { num: "01", name: "Sofás & Estar", desc: "Conforto para os melhores momentos da casa.", img: sofa },
+  { num: "02", name: "Mesas & Jantar", desc: "Ambientes para reunir família e amigos.", img: dining },
+  { num: "03", name: "Dormitórios", desc: "Camas, criados-mudos e cômodas para descansar bem.", img: bedroom },
+  { num: "04", name: "Home Office", desc: "Mesas, cadeiras e estantes para trabalhar com estilo.", img: office },
 ];
 
 const Categories = () => {
   return (
-    <section id="estudio" className="relative bg-shadow-warm/40 py-24 lg:py-32 px-6 lg:px-10">
+    <section id="categorias" className="relative bg-shadow-warm/40 py-24 lg:py-32 px-6 lg:px-10">
       <div className="max-w-[1800px] mx-auto">
-        <div className="grid lg:grid-cols-12 gap-10 mb-16 lg:mb-24">
+        <div className="grid lg:grid-cols-12 gap-10 mb-16 lg:mb-20">
           <div className="lg:col-span-4">
             <div className="flex items-center gap-3 mb-6">
               <span className="block w-8 h-px bg-marka-green" />
               <span className="text-[11px] tracking-[0.2em] uppercase font-semibold text-marka-green">
-                Ambientes
+                Categorias
               </span>
             </div>
           </div>
           <div className="lg:col-span-8">
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-medium text-marka-purple tracking-tight text-balance">
-              Cada cômodo, uma <span className="italic text-foreground/80">conversa diferente.</span>
+              Tudo o que sua casa precisa, <span className="italic text-foreground/80">em um só lugar.</span>
             </h2>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 border-t border-border">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {categories.map((cat) => (
             <article
               key={cat.num}
-              className="group relative p-8 lg:p-10 border-b border-border lg:border-r last:border-r-0 [&:nth-child(3n)]:lg:border-r-0 [&:nth-child(2n)]:md:border-r-0 lg:[&:nth-child(2n)]:border-r hover:bg-sunlight transition-colors duration-500"
+              className="group flex flex-col gap-5 cursor-pointer"
             >
-              <div className="flex items-start justify-between mb-12">
-                <span className="text-[11px] tracking-[0.2em] uppercase font-semibold text-foreground/40">
+              <div className="relative aspect-[4/5] overflow-hidden bg-shadow-warm">
+                <img
+                  src={cat.img}
+                  alt={`Categoria ${cat.name}`}
+                  loading="lazy"
+                  width={800}
+                  height={1000}
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                />
+                <div className="absolute top-4 left-4 bg-sunlight/90 backdrop-blur-sm px-3 py-1.5 text-[10px] font-semibold tracking-[0.15em] uppercase text-marka-purple">
                   {cat.num}
-                </span>
-                <span className="block w-2 h-2 rounded-full bg-marka-green opacity-0 group-hover:opacity-100 transition-opacity" />
+                </div>
               </div>
-              <h3 className="font-display text-3xl lg:text-4xl text-marka-purple mb-3 tracking-tight">
-                {cat.name}
-              </h3>
-              <p className="text-foreground/60 leading-relaxed text-pretty">{cat.desc}</p>
-              <div className="mt-8 flex items-center gap-2 text-[11px] font-semibold tracking-[0.15em] uppercase text-marka-purple opacity-0 group-hover:opacity-100 transition-opacity">
-                Ver projetos <span>→</span>
+              <div>
+                <h3 className="font-display text-2xl lg:text-3xl text-marka-purple mb-1 tracking-tight">
+                  {cat.name}
+                </h3>
+                <p className="text-sm text-foreground/60 leading-relaxed text-pretty">{cat.desc}</p>
               </div>
             </article>
           ))}
+        </div>
+
+        <div className="mt-16 flex justify-center">
+          <a
+            href="#visite"
+            className="bg-marka-green text-marka-purple-deep px-8 py-4 text-sm font-semibold tracking-wide hover:bg-marka-green-bright transition-all rounded-sm"
+          >
+            Conhecer no showroom
+          </a>
         </div>
       </div>
     </section>
