@@ -8,31 +8,32 @@ const Footer = () => {
           <div className="md:col-span-5">
             <img src={logo} alt="Marka Móveis" className="h-12 w-auto brightness-0 invert mb-6" />
             <p className="text-sunlight/60 max-w-[40ch] leading-relaxed text-pretty">
-              Marcenaria planejada com a precisão da arquitetura e o calor do feito à mão. Há mais de duas décadas desenhando lares atemporais.
+              Loja de móveis com curadoria para todos os ambientes da sua casa. Há mais de duas décadas mobiliando lares em São Paulo.
             </p>
           </div>
           <div className="md:col-span-2">
-            <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-4">Estúdio</p>
+            <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-4">Loja</p>
             <ul className="flex flex-col gap-2 text-sunlight/70">
-              <li><a href="#estudio" className="hover:text-marka-green transition-colors">Sobre</a></li>
-              <li><a href="#projetos" className="hover:text-marka-green transition-colors">Projetos</a></li>
-              <li><a href="#processo" className="hover:text-marka-green transition-colors">Processo</a></li>
+              <li><a href="#categorias" className="hover:text-marka-green transition-colors">Categorias</a></li>
+              <li><a href="#visite" className="hover:text-marka-green transition-colors">Visite</a></li>
+              <li><a href="#visite" className="hover:text-marka-green transition-colors">Horários</a></li>
             </ul>
           </div>
           <div className="md:col-span-2">
-            <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-4">Ambientes</p>
+            <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-4">Categorias</p>
             <ul className="flex flex-col gap-2 text-sunlight/70">
-              <li><a href="#" className="hover:text-marka-green transition-colors">Cozinhas</a></li>
-              <li><a href="#" className="hover:text-marka-green transition-colors">Dormitórios</a></li>
-              <li><a href="#" className="hover:text-marka-green transition-colors">Closets</a></li>
+              <li><a href="#categorias" className="hover:text-marka-green transition-colors">Sofás</a></li>
+              <li><a href="#categorias" className="hover:text-marka-green transition-colors">Mesas</a></li>
+              <li><a href="#categorias" className="hover:text-marka-green transition-colors">Dormitórios</a></li>
             </ul>
           </div>
           <div className="md:col-span-3">
             <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-4">Contato</p>
             <ul className="flex flex-col gap-2 text-sunlight/70">
-              <li>Rua das Marcenarias, 142</li>
+              <li>Av. das Marcenarias, 1420</li>
               <li>São Paulo · SP</li>
-              <li><a href="mailto:estudio@marka.com.br" className="hover:text-marka-green transition-colors">estudio@marka.com.br</a></li>
+              <li><a href="tel:+551133334444" className="hover:text-marka-green transition-colors">(11) 3333-4444</a></li>
+              <li><a href="mailto:loja@marka.com.br" className="hover:text-marka-green transition-colors">loja@marka.com.br</a></li>
             </ul>
           </div>
         </div>
@@ -42,7 +43,7 @@ const Footer = () => {
             © 2025 Marka Móveis. Todos os direitos reservados.
           </p>
           <p className="text-[10px] tracking-[0.2em] uppercase text-sunlight/40">
-            Feito com madeira, luz e tempo.
+            Móveis para a vida toda.
           </p>
         </div>
       </div>

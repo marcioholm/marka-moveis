@@ -8,17 +8,18 @@ const Navbar = () => {
       </a>
 
       <div className="hidden lg:flex gap-12 text-[11px] font-semibold tracking-[0.18em] uppercase text-foreground/60">
-        <a href="#estudio" className="hover:text-marka-purple transition-colors">O Estúdio</a>
-        <a href="#projetos" className="hover:text-marka-purple transition-colors">Projetos</a>
-        <a href="#processo" className="hover:text-marka-purple transition-colors">Processo</a>
-        <a href="#materialidade" className="hover:text-marka-purple transition-colors">Materialidade</a>
+        <a href="#categorias" className="hover:text-marka-purple transition-colors">Categorias</a>
+        <a href="#visite" className="hover:text-marka-purple transition-colors">Visite a Loja</a>
+        <a href="#visite" className="hover:text-marka-purple transition-colors">Contato</a>
       </div>
 
       <a
-        href="#contato"
+        href="https://wa.me/5511999999999"
+        target="_blank"
+        rel="noreferrer"
         className="text-[11px] font-semibold tracking-[0.15em] uppercase text-marka-purple border-b border-marka-purple/30 pb-1 hover:border-marka-purple transition-colors"
       >
-        Agendar Consulta
+        WhatsApp
       </a>
     </nav>
   );
