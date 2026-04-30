@@ -30,7 +30,7 @@ const Hero = () => {
               Como chegar
             </a>
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5543999904666"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 text-sm font-semibold tracking-wide text-foreground/80 hover:text-marka-green transition-colors group"
