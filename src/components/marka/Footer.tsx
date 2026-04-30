@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="md:col-span-5">
             <img src={logo} alt="Marka Móveis" className="h-12 w-auto mb-6" />
             <p className="text-sunlight/60 max-w-[40ch] leading-relaxed text-pretty">
-              Loja de móveis com curadoria para todos os ambientes da sua casa. Há mais de duas décadas mobiliando lares em São Paulo.
+              Loja de móveis com curadoria para todos os ambientes da sua casa. Há mais de duas décadas mobiliando lares em Siqueira Campos e região.
             </p>
           </div>
           <div className="md:col-span-2">
