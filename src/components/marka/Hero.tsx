@@ -40,18 +40,10 @@ const Hero = () => {
             </a>
           </div>
 
-          <div className="mt-8 lg:mt-12 grid grid-cols-3 gap-6 border-t border-border pt-8">
+          <div className="mt-8 lg:mt-12 border-t border-border pt-8">
             <div className="flex flex-col gap-1">
-              <span className="font-display text-3xl text-marka-purple">+24<span className="text-marka-green">.</span></span>
-              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Anos de loja</span>
-            </div>
-            <div className="flex flex-col gap-1">
-              <span className="font-display text-3xl text-marka-purple">+500</span>
-              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Produtos no showroom</span>
-            </div>
-            <div className="flex flex-col gap-1">
-              <span className="font-display text-3xl text-marka-purple">10x</span>
-              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Sem juros</span>
+              <span className="font-display text-3xl text-marka-purple">+25<span className="text-marka-green">.</span></span>
+              <span className="text-[10px] font-semibold tracking-wider uppercase text-foreground/50">Anos no mercado</span>
             </div>
           </div>
         </div>
@@ -60,7 +52,7 @@ const Hero = () => {
           <div className="w-full h-full relative bg-shadow-warm overflow-hidden shadow-editorial ring-1 ring-inset ring-foreground/5">
             <img
               src={heroImg}
-              alt="Showroom da Marka Móveis com sofás, mesas e luminárias em exposição"
+              alt="Loja Marka Móveis com sofás, mesas e luminárias em exposição"
               className="w-full h-full object-cover"
               width={1280}
               height={1600}
@@ -71,7 +63,7 @@ const Hero = () => {
           <div className="hidden md:flex absolute -right-4 bottom-[18%] rotate-90 origin-bottom-right items-center gap-3 opacity-60">
             <span className="w-8 h-px bg-foreground" />
             <span className="text-[10px] font-semibold tracking-[0.2em] uppercase text-foreground">
-              Showroom aberto · Seg a Sáb
+              Loja aberta · Seg a Sáb
             </span>
           </div>
         </div>
