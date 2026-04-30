@@ -1,13 +1,11 @@
 import sofa from "@/assets/cat-sofa.jpg";
 import dining from "@/assets/cat-dining.jpg";
 import bedroom from "@/assets/cat-bedroom.jpg";
-import office from "@/assets/cat-office.jpg";
 
 const categories = [
   { num: "01", name: "Sofás & Estar", desc: "Conforto para os melhores momentos da casa.", img: sofa },
   { num: "02", name: "Mesas & Jantar", desc: "Ambientes para reunir família e amigos.", img: dining },
   { num: "03", name: "Dormitórios", desc: "Camas, criados-mudos e cômodas para descansar bem.", img: bedroom },
-  { num: "04", name: "Home Office", desc: "Mesas, cadeiras e estantes para trabalhar com estilo.", img: office },
 ];
 
 const Categories = () => {
@@ -30,7 +28,7 @@ const Categories = () => {
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {categories.map((cat) => (
             <article
               key={cat.num}
@@ -64,7 +62,7 @@ const Categories = () => {
             href="#visite"
             className="bg-marka-green text-marka-purple-deep px-8 py-4 text-sm font-semibold tracking-wide hover:bg-marka-green-bright transition-all rounded-sm"
           >
-            Conhecer no showroom
+            Conhecer na loja
           </a>
         </div>
       </div>

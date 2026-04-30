@@ -15,10 +15,10 @@ const Visit = () => {
               </span>
             </div>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-medium tracking-tight text-balance">
-              Venha conhecer <span className="italic opacity-80">o nosso showroom.</span>
+              Venha conhecer <span className="italic opacity-80">a nossa loja.</span>
             </h2>
             <p className="mt-6 text-sunlight/70 leading-relaxed text-pretty max-w-[44ch]">
-              Mais de 500 itens em exposição. Equipe pronta para ajudar a montar o seu ambiente. Estacionamento próprio e entrega para Siqueira Campos e região.
+              Equipe pronta para ajudar a montar o seu ambiente. Estacionamento próprio e entrega para Siqueira Campos e região.
             </p>
           </div>
 
