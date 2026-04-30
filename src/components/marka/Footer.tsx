@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-[1800px] mx-auto">
         <div className="grid md:grid-cols-12 gap-10 mb-16">
           <div className="md:col-span-5">
-            <img src={logo} alt="Marka Móveis" className="h-12 w-auto brightness-0 invert mb-6" />
+            <img src={logo} alt="Marka Móveis" className="h-12 w-auto mb-6" />
             <p className="text-sunlight/60 max-w-[40ch] leading-relaxed text-pretty">
               Loja de móveis com curadoria para todos os ambientes da sua casa. Há mais de duas décadas mobiliando lares em São Paulo.
             </p>
@@ -30,9 +30,9 @@ const Footer = () => {
           <div className="md:col-span-3">
             <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-4">Contato</p>
             <ul className="flex flex-col gap-2 text-sunlight/70">
-              <li>Av. das Marcenarias, 1420</li>
-              <li>São Paulo · SP</li>
-              <li><a href="tel:+551133334444" className="hover:text-marka-green transition-colors">(11) 3333-4444</a></li>
+              <li>R. Rio Grande do Sul, 1346 — Centro</li>
+              <li>Siqueira Campos · PR</li>
+              <li><a href="tel:+5543999904666" className="hover:text-marka-green transition-colors">(43) 99990-4666</a></li>
               <li><a href="mailto:loja@marka.com.br" className="hover:text-marka-green transition-colors">loja@marka.com.br</a></li>
             </ul>
           </div>
