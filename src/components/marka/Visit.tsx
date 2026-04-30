@@ -18,7 +18,7 @@ const Visit = () => {
               Venha conhecer <span className="italic opacity-80">o nosso showroom.</span>
             </h2>
             <p className="mt-6 text-sunlight/70 leading-relaxed text-pretty max-w-[44ch]">
-              Mais de 500 itens em exposição. Equipe pronta para ajudar a montar o seu ambiente. Estacionamento próprio e entrega para toda Grande São Paulo.
+              Mais de 500 itens em exposição. Equipe pronta para ajudar a montar o seu ambiente. Estacionamento próprio e entrega para Siqueira Campos e região.
             </p>
           </div>
 
@@ -67,7 +67,7 @@ const Visit = () => {
           <div className="relative w-full h-full min-h-[420px] lg:min-h-[600px] overflow-hidden ring-1 ring-sunlight/10 shadow-editorial">
             <iframe
               title="Mapa da Marka Móveis"
-              src="https://www.google.com/maps?q=R.+Rio+Grande+do+Sul,+1346,+Siqueira+Campos+-+PR&output=embed"
+              src="https://www.google.com/maps?q=Marka+M%C3%B3veis+Siqueira+Campos+PR&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="absolute inset-0 w-full h-full grayscale-[40%]"

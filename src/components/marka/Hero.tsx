@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="flex items-center gap-3">
               <span className="block w-8 h-px bg-marka-green" />
               <span className="text-[11px] tracking-[0.2em] uppercase font-semibold text-marka-green">
-                Loja de móveis · São Paulo
+                Loja de móveis · Siqueira Campos - PR
               </span>
             </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-[5.25rem] leading-[1.05] font-medium text-marka-purple tracking-tight text-balance">
