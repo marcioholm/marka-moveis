@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       <a
-        href="https://wa.me/5511999999999"
+        href="https://wa.me/5543999904666"
         target="_blank"
         rel="noreferrer"
         className="text-[11px] font-semibold tracking-[0.15em] uppercase text-marka-purple border-b border-marka-purple/30 pb-1 hover:border-marka-purple transition-colors"

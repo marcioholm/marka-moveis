@@ -27,8 +27,8 @@ const Visit = () => {
               <MapPin className="w-5 h-5 text-marka-green mt-1 shrink-0" />
               <div>
                 <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-1">Endereço</p>
-                <p className="text-sunlight">Av. das Marcenarias, 1420 — Vila Mariana</p>
-                <p className="text-sunlight/60 text-sm">São Paulo · SP · CEP 04101-000</p>
+                <p className="text-sunlight">R. Rio Grande do Sul, 1346 — Centro</p>
+                <p className="text-sunlight/60 text-sm">Siqueira Campos · PR · CEP 84940-000</p>
               </div>
             </div>
 
@@ -36,8 +36,8 @@ const Visit = () => {
               <Clock className="w-5 h-5 text-marka-green mt-1 shrink-0" />
               <div>
                 <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-1">Horários</p>
-                <p className="text-sunlight">Seg a Sex · 9h às 19h</p>
-                <p className="text-sunlight">Sábado · 9h às 17h</p>
+                <p className="text-sunlight">Seg a Sex · 9h às 18h30</p>
+                <p className="text-sunlight">Sábado · 9h às 13h</p>
                 <p className="text-sunlight/50 text-sm">Domingo · fechado</p>
               </div>
             </div>
@@ -46,14 +46,14 @@ const Visit = () => {
               <Phone className="w-5 h-5 text-marka-green mt-1 shrink-0" />
               <div>
                 <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-1">Contato</p>
-                <a href="tel:+551133334444" className="text-sunlight hover:text-marka-green transition-colors block">(11) 3333-4444</a>
+                <a href="tel:+5543999904666" className="text-sunlight hover:text-marka-green transition-colors block">(43) 99990-4666</a>
                 <a href="mailto:loja@marka.com.br" className="text-sunlight/70 hover:text-marka-green transition-colors text-sm">loja@marka.com.br</a>
               </div>
             </div>
           </div>
 
           <a
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/5543999904666"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-marka-green text-marka-purple-deep px-8 py-4 text-sm font-semibold tracking-wide hover:bg-marka-green-bright transition-all rounded-sm w-fit"
@@ -67,7 +67,7 @@ const Visit = () => {
           <div className="relative w-full h-full min-h-[420px] lg:min-h-[600px] overflow-hidden ring-1 ring-sunlight/10 shadow-editorial">
             <iframe
               title="Mapa da Marka Móveis"
-              src="https://www.google.com/maps?q=Av.+Paulista,+S%C3%A3o+Paulo&output=embed"
+              src="https://www.google.com/maps?q=R.+Rio+Grande+do+Sul,+1346,+Siqueira+Campos+-+PR&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="absolute inset-0 w-full h-full grayscale-[40%]"
