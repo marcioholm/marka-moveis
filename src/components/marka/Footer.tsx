@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-[1800px] mx-auto">
         <div className="grid md:grid-cols-12 gap-10 mb-16">
           <div className="md:col-span-5">
-            <img src={logo} alt="Marka Móveis" className="h-16 w-auto mb-6" />
+            <img src={logo} alt="Marka Móveis" className="h-20 lg:h-24 w-auto mb-6" />
             <p className="text-sunlight/60 max-w-[40ch] leading-relaxed text-pretty">
               Loja de móveis com curadoria para todos os ambientes da sua casa. Há mais de duas décadas mobiliando lares em Siqueira Campos e região.
             </p>
