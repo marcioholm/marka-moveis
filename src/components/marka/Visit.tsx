@@ -53,7 +53,7 @@ const Visit = () => {
           </div>
 
           <a
-            href="https://wa.me/5543999904666"
+            href="https://api.whatsapp.com/send?phone=5543999904666"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-marka-green text-marka-purple-deep px-8 py-4 text-sm font-semibold tracking-wide hover:bg-marka-green-bright transition-all rounded-sm w-fit"
