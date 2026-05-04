@@ -34,7 +34,7 @@ const Categories = () => {
               key={cat.num}
               className="group flex flex-col gap-5 cursor-pointer"
             >
-              <div className="relative aspect-[4/5] overflow-hidden bg-shadow-warm">
+              <div className="relative aspect-[4/5] overflow-hidden bg-shadow-warm rounded-sm">
                 <img
                   src={cat.img}
                   alt={`Categoria ${cat.name}`}
@@ -43,8 +43,13 @@ const Categories = () => {
                   height={1000}
                   className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
-                <div className="absolute top-4 left-4 bg-sunlight/90 backdrop-blur-sm px-3 py-1.5 text-[10px] font-semibold tracking-[0.15em] uppercase text-marka-purple">
+                <div className="absolute inset-0 bg-gradient-to-t from-marka-purple-deep/70 via-marka-purple-deep/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                <div className="absolute top-4 left-4 bg-sunlight/90 backdrop-blur-sm px-3 py-1.5 text-[10px] font-semibold tracking-[0.15em] uppercase text-marka-purple rounded-sm">
                   {cat.num}
+                </div>
+                <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-sunlight opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0 transition-all duration-500">
+                  <span className="text-[11px] font-semibold tracking-[0.2em] uppercase">Veja na loja</span>
+                  <span className="text-marka-green text-lg">→</span>
                 </div>
               </div>
               <div>
