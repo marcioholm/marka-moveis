@@ -46,7 +46,7 @@ const Navbar = () => {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://api.whatsapp.com/send?phone=5543999904666"
+            href="https://api.whatsapp.com/send?phone=5543999904666&text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Marka%20M%C3%B3veis."
             target="_blank"
             rel="noreferrer"
             className="hidden md:inline-flex items-center gap-2 bg-marka-purple text-sunlight px-5 py-2.5 text-[11px] font-semibold tracking-[0.15em] uppercase hover:bg-marka-purple-deep transition-colors rounded-sm"
@@ -78,7 +78,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://api.whatsapp.com/send?phone=5543999904666"
+              href="https://api.whatsapp.com/send?phone=5543999904666&text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Marka%20M%C3%B3veis."
               target="_blank"
               rel="noreferrer"
               className="md:hidden inline-flex items-center justify-center gap-2 bg-marka-purple text-sunlight px-5 py-3 text-xs font-semibold tracking-[0.15em] uppercase rounded-sm mt-2"

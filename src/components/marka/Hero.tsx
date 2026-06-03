@@ -18,7 +18,7 @@ const Hero = () => {
               Móveis para a sua casa, <span className="italic text-foreground/80">prontos para levar.</span>
             </h1>
             <p className="text-lg text-foreground/70 max-w-[44ch] leading-relaxed text-pretty">
-              Sofás, mesas, camas, racks e decoração com curadoria, qualidade e preço justo. Visite a nossa loja e veja, sente e escolha pessoalmente.
+              Sofás, mesas, camas, racks e decoração — móveis com curadoria, qualidade e preço justo para todos os ambientes da sua casa. Visite a loja e escolha pessoalmente, ou fale com um de nossos atendentes.
             </p>
           </div>
 
@@ -30,7 +30,7 @@ const Hero = () => {
               Como chegar
             </a>
             <a
-              href="https://api.whatsapp.com/send?phone=5543999904666"
+              href="https://api.whatsapp.com/send?phone=5543999904666&text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Marka%20M%C3%B3veis."
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-3 text-sm font-semibold tracking-wide text-foreground/80 hover:text-marka-green transition-colors group"

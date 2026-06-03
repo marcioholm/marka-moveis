@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 const FloatingWhatsApp = () => {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=5543999904666"
+      href="https://api.whatsapp.com/send?phone=5543999904666&text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Marka%20M%C3%B3veis."
       target="_blank"
       rel="noreferrer"
       aria-label="Falar no WhatsApp"

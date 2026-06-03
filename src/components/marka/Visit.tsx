@@ -18,7 +18,7 @@ const Visit = () => {
               Venha conhecer <span className="italic opacity-80">a nossa loja.</span>
             </h2>
             <p className="mt-6 text-sunlight/70 leading-relaxed text-pretty max-w-[44ch]">
-              Equipe pronta para ajudar a montar o seu ambiente. Estacionamento próprio e entrega para Siqueira Campos e região.
+              Equipe pronta para ajudar a montar o seu ambiente. Fácil acesso e entrega para Siqueira Campos e região.
             </p>
           </div>
 
@@ -53,7 +53,7 @@ const Visit = () => {
           </div>
 
           <a
-            href="https://api.whatsapp.com/send?phone=5543999904666"
+            href="https://api.whatsapp.com/send?phone=5543999904666&text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Marka%20M%C3%B3veis."
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-marka-green text-marka-purple-deep px-8 py-4 text-sm font-semibold tracking-wide hover:bg-marka-green-bright transition-all rounded-sm w-fit"
