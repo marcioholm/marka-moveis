@@ -15,6 +15,7 @@ const Footer = () => {
             <p className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green mb-4">Loja</p>
             <ul className="flex flex-col gap-2 text-sunlight/70">
               <li><a href="#categorias" className="hover:text-marka-green transition-colors">Categorias</a></li>
+              <li><a href="#showroom" className="hover:text-marka-green transition-colors">Showroom</a></li>
               <li><a href="#visite" className="hover:text-marka-green transition-colors">Visite</a></li>
               <li><a href="#visite" className="hover:text-marka-green transition-colors">Horários</a></li>
             </ul>
