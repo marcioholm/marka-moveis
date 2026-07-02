@@ -15,7 +15,6 @@ const Navbar = () => {
 
   const links = [
     { href: "#categorias", label: "Categorias" },
-    { href: "#showroom", label: "Showroom" },
     { href: "#visite", label: "Visite a Loja" },
     { href: "#visite", label: "Contato" },
   ];

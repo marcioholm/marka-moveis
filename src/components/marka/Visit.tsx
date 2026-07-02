@@ -1,4 +1,5 @@
 import { MapPin, Clock, Phone, MessageCircle } from "lucide-react";
+import visitImg from "@/assets/showroom/dsc05015.jpg";
 
 const Visit = () => {
   return (
@@ -63,8 +64,18 @@ const Visit = () => {
           </a>
         </div>
 
-        <div className="lg:col-span-7">
-          <div className="relative w-full h-full min-h-[420px] lg:min-h-[600px] overflow-hidden ring-1 ring-sunlight/10 shadow-editorial">
+        <div className="lg:col-span-7 flex flex-col gap-4 lg:gap-6">
+          <div className="relative w-full aspect-[3/2] overflow-hidden bg-shadow-warm ring-1 ring-sunlight/10 shadow-editorial">
+            <img
+              src={visitImg}
+              alt="Interior da Marka Móveis"
+              loading="lazy"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-marka-purple/20 via-transparent to-transparent" />
+          </div>
+
+          <div className="relative w-full min-h-[240px] lg:min-h-[360px] overflow-hidden ring-1 ring-sunlight/10 shadow-editorial">
             <iframe
               title="Mapa da Marka Móveis"
               src="https://www.google.com/maps?q=Marka+M%C3%B3veis+Siqueira+Campos+PR&output=embed"

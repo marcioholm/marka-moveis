@@ -1,6 +1,7 @@
 import sofa from "@/assets/cat-sofa.jpg";
 import dining from "@/assets/cat-dining.jpg";
 import bedroom from "@/assets/cat-bedroom.jpg";
+import showroom from "@/assets/showroom/dsc04840.jpg";
 
 const categories = [
   { num: "01", name: "Sofás & Estar", desc: "Conforto para os melhores momentos da casa.", img: sofa },
@@ -25,6 +26,21 @@ const Categories = () => {
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.05] font-medium text-marka-purple tracking-tight text-balance">
               Tudo o que sua casa precisa, <span className="italic text-foreground/80">em um só lugar.</span>
             </h2>
+          </div>
+        </div>
+
+        <div className="relative w-full aspect-[3/1] lg:aspect-[4/1] overflow-hidden bg-shadow-warm ring-1 ring-inset ring-foreground/5 shadow-editorial mb-10 lg:mb-14">
+          <img
+            src={showroom}
+            alt="Showroom Marka Móveis"
+            loading="lazy"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-marka-purple-deep/50 via-transparent to-marka-purple-deep/50" />
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="text-sunlight/80 text-[11px] tracking-[0.2em] uppercase font-semibold bg-marka-purple-deep/60 backdrop-blur-sm px-5 py-2.5 rounded-sm">
+              Ambientes reais · Showroom Marka Móveis
+            </span>
           </div>
         </div>
 

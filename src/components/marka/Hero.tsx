@@ -1,4 +1,7 @@
 import heroImg from "@/assets/store-showroom.jpg";
+import showroom01 from "@/assets/showroom/dsc04662.jpg";
+import showroom02 from "@/assets/showroom/dsc04663.jpg";
+import showroom03 from "@/assets/showroom/dsc04664.jpg";
 
 const Hero = () => {
   return (
@@ -65,6 +68,29 @@ const Hero = () => {
             <span className="text-[10px] font-semibold tracking-[0.2em] uppercase text-foreground">
               Loja aberta · Seg a Sáb
             </span>
+          </div>
+        </div>
+      </div>
+
+      <div className="relative z-10 border-t border-border/60 bg-sunlight/80">
+        <div className="max-w-[1800px] mx-auto px-6 lg:px-10 py-6 lg:py-8">
+          <div className="flex items-center gap-3 mb-5">
+            <span className="block w-8 h-px bg-marka-green" />
+            <span className="text-[10px] tracking-[0.2em] uppercase font-semibold text-marka-green">
+              Fotos reais do showroom
+            </span>
+          </div>
+          <div className="grid grid-cols-3 gap-3 lg:gap-4">
+            {[showroom01, showroom02, showroom03].map((src, i) => (
+              <div key={i} className="aspect-[4/3] overflow-hidden bg-shadow-warm ring-1 ring-inset ring-foreground/5 shadow-editorial">
+                <img
+                  src={src}
+                  alt={`Showroom Marka Móveis - foto ${i + 1}`}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-700 ease-out hover:scale-105"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@ import Navbar from "@/components/marka/Navbar";
 import Hero from "@/components/marka/Hero";
 import Highlights from "@/components/marka/Highlights";
 import Categories from "@/components/marka/Categories";
-import StockProducts from "@/components/marka/StockProducts";
 import Visit from "@/components/marka/Visit";
 import Footer from "@/components/marka/Footer";
 import FloatingWhatsApp from "@/components/marka/FloatingWhatsApp";
@@ -15,7 +14,6 @@ const Index = () => {
         <Hero />
         <Highlights />
         <Categories />
-        <StockProducts />
         <Visit />
       </main>
       <Footer />
