@@ -1,8 +1,8 @@
-import heroImg from "@/assets/showroom/dsc04662.jpg";
+import heroImg from "@/assets/showroom/dsc04840.jpg";
 import showroom01 from "@/assets/showroom/dsc04662.jpg";
 import showroom02 from "@/assets/showroom/dsc04663.jpg";
 import showroom03 from "@/assets/showroom/dsc04664.jpg";
-import showroom04 from "@/assets/showroom/dsc04840.jpg";
+import showroom04 from "@/assets/showroom/dsc05015.jpg";
 
 const Hero = () => {
   return (
