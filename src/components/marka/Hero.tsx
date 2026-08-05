@@ -1,7 +1,8 @@
-import heroImg from "@/assets/store-showroom.jpg";
+import heroImg from "@/assets/showroom/dsc04662.jpg";
 import showroom01 from "@/assets/showroom/dsc04662.jpg";
 import showroom02 from "@/assets/showroom/dsc04663.jpg";
 import showroom03 from "@/assets/showroom/dsc04664.jpg";
+import showroom04 from "@/assets/showroom/dsc04840.jpg";
 
 const Hero = () => {
   return (
@@ -80,8 +81,8 @@ const Hero = () => {
               Fotos reais do showroom
             </span>
           </div>
-          <div className="grid grid-cols-3 gap-3 lg:gap-4">
-            {[showroom01, showroom02, showroom03].map((src, i) => (
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
+            {[showroom01, showroom02, showroom03, showroom04].map((src, i) => (
               <div key={i} className="aspect-[4/3] overflow-hidden bg-shadow-warm ring-1 ring-inset ring-foreground/5 shadow-editorial">
                 <img
                   src={src}

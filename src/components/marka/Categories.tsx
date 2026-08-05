@@ -1,7 +1,7 @@
 import sofa from "@/assets/cat-sofa.jpg";
 import dining from "@/assets/cat-dining.jpg";
 import bedroom from "@/assets/cat-bedroom.jpg";
-import showroom from "@/assets/showroom/dsc04840.jpg";
+import showroom from "@/assets/showroom/dsc05015.jpg";
 
 const categories = [
   { num: "01", name: "Sofás & Estar", desc: "Conforto para os melhores momentos da casa.", img: sofa },
